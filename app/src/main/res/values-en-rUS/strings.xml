@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Studentq</string>
+    <string name="login_button1_title">Auth via VK</string>
+    <string name="login_button2_title">Go to Queues</string>
+    <string name="header1">Queue for students</string>
+    <string name="header2">Developed by the same students</string>
+    <string name="service_title">Service</string>
+    <string name="contact_title">Contact</string>
+</resources>

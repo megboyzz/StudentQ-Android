@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Studentq</string>
+    <string name="login_button1_title">Авторизация через ВК</string>
+    <string name="login_button2_title">Перейти к очередям</string>
+    <string name="header1">Удобная Очередь для студентов</string>
+    <string name="header2">Разработаная такими же студентами</string>
+    <string name="service_title">Сервис</string>
+    <string name="contact_title">Связь</string>
+</resources>
