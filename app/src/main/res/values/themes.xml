@@ -2,6 +2,8 @@
 <resources>
 
     <style name="Theme.Studentq" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">#CCE6195E</item>
+        <item name="android:statusBarColor">#CCD81858</item>
+        <item name="android:colorBackground">#FF1E1E1E</item>
     </style>
+
 </resources>
