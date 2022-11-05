@@ -13,8 +13,10 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.Dp
 import com.vk.api.sdk.VK
 import com.vk.api.sdk.VKApiCallback
@@ -43,6 +45,9 @@ fun Dp.SpacerWidth() = Spacer(Modifier.width(this))
 
 @Composable
 fun Dp.SpacerHeight() = Spacer(Modifier.height(this))
+
+@Composable
+fun Int.AsImageVector() = ImageVector.vectorResource(this)
 
 
 class MainActivity : ComponentActivity() {

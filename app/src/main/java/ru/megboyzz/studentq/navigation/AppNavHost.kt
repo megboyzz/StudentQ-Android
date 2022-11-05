@@ -7,6 +7,9 @@ import androidx.navigation.compose.rememberNavController
 import ru.megboyzz.studentq.screens.*
 
 sealed class AppNavRoute(val route: String){
+
+    object Splash : AppNavRoute("splash_screen")
+
     object Auth: AppNavRoute("auth_screen")
     object Queues: AppNavRoute("all_queues_screen")
     object Queue: AppNavRoute("in_queue_screen")
@@ -19,8 +22,9 @@ fun AppNavHost(){
     val navController = rememberNavController()
     NavHost(
         navController = navController,
-        startDestination = AppNavRoute.Auth.route
+        startDestination = AppNavRoute.Splash.route
     ){
+        composable(AppNavRoute.Splash.route)            { SplashScreen(navController) }
         composable(AppNavRoute.Auth.route)              { Auth(navController) }
         composable(AppNavRoute.Queues.route)            { Queues(navController) }
         composable(AppNavRoute.Queue.route)             { Queue(navController) }
